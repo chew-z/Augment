@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Augment",
-    "version": "0.4.2",
+    "version": "0.4.8",
     "description": "Augment websites that do bad things",
     "icons": {
         "16": "img/icon16.png",
@@ -29,6 +29,8 @@
                 "js/content.js"
             ],
             "matches": [
+                "https://www.youtube.com/*",
+                "https://consent.google.com/*",
                 "https://encrypted.google.com/*",
                 "http://www.google.com/*",
                 "https://www.google.com/*",
