@@ -19,6 +19,7 @@ if ( logo_cont ) {
     logo_cont.innerHTML = '<h1><a href="https://www.google.com" id="logo" title="Go to Google Home"><img src="' + smallGoogleLogoUrl + '" width="95" height="37" align="middle" alt="Google Spies on You!"/> </a></h1>'
 }
 
+// Does it work at all? TODO 
 var yt_consent = document.querySelector("paper-dialog")
 if ( yt_consent ) {
     yt_consent.parentElement.removeChild(yt_consent);

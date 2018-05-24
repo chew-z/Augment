@@ -1,15 +1,17 @@
 // @flow
-var url_patterns =  ["https://*/*cloudflare.min.js", 
+var url_patterns =  [
     "https://*.youtube.com/api/stats/ads/*",
     "https://*.youtube.com/api/stats/ads*",
     "https://*.youtube.com/api/stats/qoe*",
     "https://*.youtube.com/pagead/conversion/*",
     "https://*.youtube.com/pagead/adview*",
     "https://*.youtube.com/annotations_invideo*",
-    "https://consent.youtube.com/*",
-    "https://consent.google.com/*",
-    "https://*.cloudfront.net/*sp.js", 
+    // "https://consent.youtube.com/*",
+    // "https://consent.google.com/*",
+    // "https://fonts.googleapis.com/*",
+    // "https://*.cloudfront.net/*sp.js", 
     "https://*.facebook.net/*js", 
+    "https://*.gravatar.com/*",
     "https://*.doubleclick.net/pagead/*",
     "https://*.doubleclick.net/gampad/*",
     "https://*.doubleclick.net/instream/*",
@@ -25,8 +27,6 @@ var url_patterns =  ["https://*/*cloudflare.min.js",
     "https://pixel.quantserve.com/*", 
     "http://assets.adobedtm.com/*js",
     "http://*.collect.igodigital.com/collect.js",
-    "https://fonts.googleapis.com/*",
-    "https://*.gravatar.com/*",
     "https://spoor-api.ft.com/px.gif?*"
 ];
 
